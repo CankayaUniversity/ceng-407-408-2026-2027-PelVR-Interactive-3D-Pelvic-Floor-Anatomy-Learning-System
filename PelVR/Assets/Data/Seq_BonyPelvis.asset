@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1cd9c6ddd6a1140b0e7d47b83cafd7, type: 3}
+  m_Name: Seq_BonyPelvis
+  m_EditorClassIdentifier: Assembly-CSharp::PelVR.LearningSequence
+  sequenceTitleTR: Kemik Pelvis ve Eklemler
+  sequenceTitleEN: Bony Pelvis and Joints
+  steps:
+  - structureId: ilium
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: "\u0130liyum"
+    titleEN: Ilium
+    titleLatin: Os ilium
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
+  - structureId: sacrum
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: Sakrum
+    titleEN: Sacrum
+    titleLatin: Os sacrum
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
+  - structureId: coccyx
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: Koksiks
+    titleEN: Coccyx
+    titleLatin: Os coccygis
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
+  - structureId: sacroiliac_joint
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: Sakroiliak eklem
+    titleEN: Sacroiliac Joint
+    titleLatin: Articulatio sacroiliaca
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
+  - structureId: "pubic_symphysis\t"
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: Simfizis pubis
+    titleEN: Pubic symphysis
+    titleLatin: Symphysis pubica
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'

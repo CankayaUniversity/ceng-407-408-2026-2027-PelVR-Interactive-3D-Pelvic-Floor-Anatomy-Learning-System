@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1cd9c6ddd6a1140b0e7d47b83cafd7, type: 3}
+  m_Name: Seq_PelvicFloor
+  m_EditorClassIdentifier: Assembly-CSharp::PelVR.LearningSequence
+  sequenceTitleTR: "Pelvik Taban Kaslar\u0131"
+  sequenceTitleEN: Pelvic Floor Muscles
+  steps:
+  - structureId: pubococcygeus
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: "Pubokoksigeus kas\u0131"
+    titleEN: "Pubococcygeus\t"
+    titleLatin: M. pubococcygeus
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
+  - structureId: puborectalis
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: Puborektal kas
+    titleEN: Puborectalis
+    titleLatin: M. puborectalis
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
+  - structureId: iliococcygeus
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: "\u0130liyokoksigeus kas\u0131"
+    titleEN: Iliococcygeus
+    titleLatin: M. iliococcygeus
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
+  - structureId: coccygeus
+    highlightIds: []
+    isolateLayer: 
+    measurementId: 
+    titleTR: "Koksigeus kas\u0131"
+    titleEN: Coccygeus
+    titleLatin: M. coccygeus
+    bodyTR: '[ESEP materyalinden doldur]'
+    bodyEN: '[Fill from ESEP material]'
